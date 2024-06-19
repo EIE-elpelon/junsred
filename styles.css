@@ -1,0 +1,164 @@
+/* General */
+body {
+    background: url('ruta_de_tu_imagen_de_fondo') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.music-player audio {
+    width: 100%;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #8a2be2;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    color: #ff69b4;
+}
+
+/* About Me */
+.about-me {
+    margin: 20px 0;
+}
+
+.about-me-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Clients */
+.clients {
+    margin: 20px 0;
+}
+
+.client-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.client {
+    background-color: #333;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.client img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.client h3 {
+    color: #ff69b4;
+}
+
+/* Skills */
+.skills {
+    padding: 20px;
+    background-color: #222;
+    margin: 20px 0;
+}
+
+.skills h2 {
+    color: #ff69b4;
+}
+
+.skill-category {
+    margin-bottom: 20px;
+}
+
+.skill-category h3 {
+    color: #8a2be2;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #333;
+    border-radius: 5px;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Currently Working On */
+.currently-working-on {
+    padding: 20px;
+    background-color: #111;
+    margin: 20px 0;
+}
+
+.currently-working-on h2 {
+    color: #ff69b4;
+}
+
+.project-card {
+    display: inline-block;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.project-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.project-title {
+    color: #8a2be2;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 15px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #777;
+}
